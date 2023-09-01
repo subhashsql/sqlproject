@@ -32,3 +32,11 @@ select  *,datediff(yy,Hire_Date,getdate()) as years_in_service,
 from [dbo].[Staff]
 order by 2 asc
 go
+-----------------------------
+select Role,asgn.Email,Hire_Date,
+		case when datediff(yy,Hire_Date,getdate()) >=7 then 'Senior'  
+	 when datediff(yy,Hire_Date,getdate()) >=5 then 'Junior' else 'Newbee' end as'seniority'
+from [dbo].[Staff] st join [dbo].[Staff_Assignments] asgn
+		on st.Email= asgn.Email
+order by 3 asc
+go
