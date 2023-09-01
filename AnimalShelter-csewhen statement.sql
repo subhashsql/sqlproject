@@ -35,8 +35,37 @@ go
 -----------------------------
 select Role,asgn.Email,Hire_Date,
 		case when datediff(yy,Hire_Date,getdate()) >=7 then 'Senior'  
-	 when datediff(yy,Hire_Date,getdate()) >=5 then 'Junior' else 'Newbee' end as'seniority'
+		 when datediff(yy,Hire_Date,getdate()) >=5 then 'Junior' else 'Newbee' end as'seniority'
 from [dbo].[Staff] st join [dbo].[Staff_Assignments] asgn
 		on st.Email= asgn.Email
 order by 3 asc
 go
+------------------------------------
+select top 4 *
+from [dbo].[Animals]
+go
+select Name,Species, datename(dw,Birth_Date) as 'dayBorn',
+	case when datename(dw,Birth_Date) in ('saturday','sunday') then 'weekend'
+		else 'weekday' end as 'dayname'
+from [dbo].[Animals]
+go
+----------
+select Name,Species, datename(dw,Birth_Date) as 'dayBorn'
+	from [dbo].[Animals]
+where datename(dw,Birth_date) in ('saturday','sunday')
+go
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
