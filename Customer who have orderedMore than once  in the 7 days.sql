@@ -1,10 +1,7 @@
 /*
 Query to find customerid who have done more than one transcation with in last 7 day
-
 by- subhash
 date-20-05-2023
-
-
 */
 
 use northwind
