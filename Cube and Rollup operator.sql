@@ -1,11 +1,10 @@
 /* cube and Rollup operators
 created by -Subhash
 date-20-05-2023
-
 */
 use School
 go
-
+---------------------------------------
 CREATE TABLE dbo.cubeone
 (
   Colour    VARCHAR(30) NOT NULL,
