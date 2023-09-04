@@ -2,7 +2,6 @@
 Pivotting colums
 query - Subahash
 Date- 23-05-2023
-
 */
 use school
 go
