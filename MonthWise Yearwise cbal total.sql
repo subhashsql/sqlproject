@@ -13,3 +13,4 @@ go
 ---------
 select datename(month,doo)
 from amaster
+go
