@@ -2,7 +2,6 @@
 Supplier/retail case study  -Qstn -6
 BY:Subhash 
 Date Modified - 13-04-23
-
 */
 --6.List the names of the parts which have not been supplied in the month of May 2020.
 
