@@ -2,7 +2,6 @@
 Supplier/retail case study  -Qstn -9
 BY:Subhash 
 Date Modified - 14-04-23
-
 */
 ----9.List the names of the parts supplied by more than one supplier.
 
