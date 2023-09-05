@@ -2,7 +2,6 @@
 Supplier/retail case study  -Qstn -8
 BY:Subhash 
 Date Modified - 13-04-23
-
 */
 ---8.List the names of the suppliers who have supplied exactly 10 units of part P1.
 
