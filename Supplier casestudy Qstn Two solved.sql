@@ -4,8 +4,7 @@ BY:Subhash
 Date Modified - 12-04-23
 
 */
-
----2.List the names of the Suppliers who do not supply part with PID ‘1’.
+---2.List the names of the Suppliers who do not supply part with PID â€˜1â€™.
 
 select distinct m.name,m.city
 from SUPPLIERMASTER m
