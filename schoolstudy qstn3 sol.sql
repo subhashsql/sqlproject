@@ -1,6 +1,5 @@
 /*3.	List the name of the advanced course where the enrollment by foreign students is the highest.	*/
 
-
 select origin,e.cid,count(*)as 'no.of students',c.name
 from 
 ENROLL_MASTER e join  StudentMaster s  on
@@ -18,7 +17,7 @@ ENROLL_MASTER e join  StudentMaster s  on
 
  ---max of count
  select cid,count(*)
-
+---------------
 
  select *,row_number() over(partition by sid order by cid) as rno
  from ENROLL_MASTER
