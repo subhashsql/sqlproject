@@ -1,5 +1,5 @@
 /*
-Pivotting colums
+Pivotting columns
 query - Subahash
 Date- 23-05-2023
 */
