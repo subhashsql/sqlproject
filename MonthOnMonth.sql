@@ -12,7 +12,7 @@ from [dbo].[payment]
 group by year(payment_date),datename(month,payment_date)
 order by 2,3 desc
 ----------------
---comparing total amount month on month for the current year -------------------
+--comparing total amount month on month for the year 2005 -------------------
 
 select year(payment_date),datename(month,payment_date),sum(Amount),
 		Lag(sum(Amount)) over(order by year(payment_date), datename(month,payment_date)) as f
