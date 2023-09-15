@@ -1,5 +1,6 @@
 /* 2.List the names of the Students who have not enrolled for Java course.*/
 -----------students enrolled in java course
+
 select distinct sid,cid, count(*) as 'no.of courses'
 from [dbo].[ENROLL_MASTER]
 where cid != 105
