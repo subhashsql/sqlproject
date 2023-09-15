@@ -34,6 +34,7 @@ Values
 (1,'August',14)
 go
 ----------------- checking the data insereted in the table
+	
 select pid,sum(qtysold) as total_qty,Month_name
 from Pivotsales1 
 group by pid,Month_name
