@@ -2,6 +2,7 @@
 created by -Subhash
 date-20-05-2023
 */
+--insert data into the tables
 use School
 go
 ---------------------------------------
@@ -42,3 +43,4 @@ VALUES
   from dbo.cubeone
   group by Itemname,Colour with rollup
   go
+
